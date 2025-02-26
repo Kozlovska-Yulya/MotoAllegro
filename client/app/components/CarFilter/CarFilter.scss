@@ -1,0 +1,51 @@
+.car-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 500px;
+
+  .filter-step {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    &:hover {
+      background: #eef5ff;
+    }
+
+    .step-number {
+      background: #0056b3;
+      color: white;
+      font-weight: bold;
+      padding: 5px 10px;
+      border-radius: 50%;
+    }
+
+    .arrow {
+      color: #0056b3;
+    }
+  }
+
+  .search-btn {
+    background: #0056b3;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-align: center;
+
+    &:hover {
+      background: #003d80;
+    }
+  }
+}

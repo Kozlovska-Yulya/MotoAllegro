@@ -3,9 +3,9 @@ import React, { useState } from 'react';
 
 type Props = {};
 
-const Subcribe = ({}: Props) => {
+const Subscribe = ({}: Props) => {
   const [email, setEmail] = useState('');
-  return <div>Subcribe</div>;
+  return <div>Subscribe</div>;
 };
 
-export default Subcribe;
+export default Subscribe;
